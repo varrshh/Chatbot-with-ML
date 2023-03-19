@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you","Hey","Hola", "Hello", "vanakam"],
+         "responses": ["Hello,how can i help you?", "Good to see you again"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye"],
+         "responses": ["See you!", "Bye,Have a nice day", "Bye! Come back again."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That was helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What can you do?", "What help do you provide?", "How are you helpful?", "What support is offered"],
+         "responses": ["I can guide you with the courses available in our college", "i can support you with the details of the courses present in our college"],
+         "context": [""]
+        },
+        {"tag": "courses_available",
+         "patterns": ["what are the courses available?", "available courses", "course details", "List of courses" ],
+         "responses": ["select a stream given:1.Animation and Design 2.Computer Application and IT 3.Engineering and Architecture 4.Management and Business Administration 5.Inegrated Courses" ],
+         "context": [""]
+        },
+        {"tag": "animation",
+         "patterns": ["animation and design", "Animation and Design" ],
+         "responses": ["Courses available:ME VLSI Design "],
+         "context": [""]
+        },
+        {"tag": "comp_application_IT",
+         "patterns": ["Computer Application and IT", "computer application", "IT", "it", "computer application and it" ],
+         "responses": ["courses available:1.BE Computer Science and Engineering 2.B.Tech Information Technology"],
+         "context": [""]
+        },
+        {"tag": "engineering_and_architecture",
+         "patterns": ["engineering and architecture"],
+         "responses": ["courses available:1.BE computer Science and Engineering\n2.BE Electrical and Electronics Engineering\n3.BE Electronics and Communication Engineering\n4.BE Mechanical Engineering\n5.B.Tech Information Technology\n6.BE Artificial Intelligence and Data Science"],
+         "context": [""]
+        },
+        {"tag": "management_and_business_administration",
+         "patterns": ["management and business administration","management","business administration"],
+         "responses": ["MBA"],
+         "context": [""]
+        },
+        {"tag": "integrated_course",
+         "patterns": ["integrated course"],
+         "responses": ["M.Sc Data Science Integrated","M.Sc Decision and Computing Sciences Integrated","M.Sc Software Systems Integrated"],
+         "context": [""]
+        },
+        {"tag": "clubs",
+         "patterns": ["clubs present","clubs available", "what are some of the most popular clubs on campus","clubs on campus","clubs" ],
+         "responses": ["Datalytics club,FOSS-CIT club,Roteract club,litreture club"],
+         "context": [""]
+        },
+       {"tag": "hostel_facilities",
+         "patterns": ["is hostel facility available", "hostel facility" ],
+         "responses": ["yes,boys and girls have their separate hostels available"],
+         "context": [""]
+        },
+        {"tag": "college_bus",
+         "patterns": ["is college bus available", "college bus" ],
+         "responses": ["yes,it is available(saibaba colony,gandhipuram,lakshmi mills,peelamedu,singanallur)"],
+         "context": [""]
+        },
+       {"tag": "graduation_percentage",
+         "patterns": ["what is the percentage of graduation in 4 years", "graduation percentage" ],
+         "responses": ["80% students graduated in 2019"],
+         "context": [""]
+        },
+        {"tag": "gov_scholarships",
+         "patterns": ["government scholarships available", "what are the scholarships in the college" ],
+         "responses": ["Government Scholarships:\n\n1. Adi Dravidar Welfare Scholarship\n2. Backward class Welfare Scholarship\n3. Chief Minister’s Scholarship\n4. Adi Dravidar Welfare  Higher Education Special Scholarship\n5. National Foundation for teachers’ Welfare Scholarship\n6. Physically Handicapped Scholarship\n7. Merit- Cum- Means Scholarship\n8. Deceased Government Servants Scholarship\n9. Ex-servicemen  Scholarship\n10.Arignar Anna Award Scholarship\n11.Pondicherry State Scholarship\n12.Andaman & Nicobar Scholarship\n13.Government of Megalaya Scholarship\n14.Government Of Shillong Scholarship\n15.Gandhi Memorial Scholarship\n16.Government Of Arunachal Pradesh Scholarship\n17.Government of Tripura Scholarship\n18.Government of Nagaland Scholarship\n19.Government of Mizoram Scholarship\n20.Defence Service Scholarship\n21.Tamil Nadu Farmer Social Security Welfare Scholarship\n22.Central Govt. Merit cum Means  Scholarship\n23.Tamil Nadu Minority Merit Cum Means Based Scholarship\n24.AICTE Pragathi Scheme (For Girl Students)\n25.AICTE Saksham Scheme (For Specially-abled Students)\n26. Siragugal Scholarship"],
+         "context": [""]
+        },
+        {"tag": "M.sc_eligibility_criteria",
+         "patterns": ["what is the eligibility critetria for M.Sc courses?","eligibility for integrated courses","inegrated courses eligibility" ],
+         "responses": ["A Pass in HSC / equivalent exam with Mathematics, Physics and Chemistry as the subjects of study. However, Candidates (other than SC/ST) with an aggregate of 75% and above in Mathematics, Physics, and Chemistry or Computer Science only need to apply."],
+         "context": [""]
+        }
+]
+}
